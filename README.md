@@ -49,7 +49,7 @@ private readonly IServerTiming _serverTiming;
 
 public void Do()
 {
-    using var measurement = _serverTiming.Muasure("metric-name");
+    using var measurement = _serverTiming.Measure("metric-name");
     
     ...
 }
@@ -62,7 +62,7 @@ private readonly IServerTiming _serverTiming;
 
 public void Do()
 {
-    var measurement = _serverTiming.Muasure("metric-name");
+    var measurement = _serverTiming.Measure("metric-name");
     
     ...
     
