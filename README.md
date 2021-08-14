@@ -1,5 +1,10 @@
 # Imouto.ServerTiming
 
+A library to pack base request metrics to response header. You can view this metrics on the DevTools Panel or in the Postman.
+
+<img src="https://user-images.githubusercontent.com/14975965/129455795-c1efa553-42d7-4c3d-b6b5-fe497cb75c8f.png" width="400">
+
+
 Based on Lib.AspNetCore.ServerTiming, refactored and adapted.
 
 ## Getting Started
