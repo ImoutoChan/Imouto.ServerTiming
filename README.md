@@ -71,7 +71,7 @@ public void Do()
 ```
 
 ### Metrics with the same name
-It's also safe to create metrics with the same name. They will be numbered automatically. So it's safe to use this approach, for example, in your Mediatr behaviors or similar middlewares that can be created multiple times per request.
+It's also safe to create metrics with the same name. They will be numbered automatically. So it's safe to use this approach, for example, in your Mediatr behaviors or in similar middleware that can be created multiple times per request.
 
 ### Scoped Context
 Make sure to use this approach only from code with the correct usage of scopes. Every unit of work in your application should create a **scope** from the `IScopeProvider`. In ASP NET Core scope is already created for you. But make sure to create it for rabbit clients or scheduled work from hosted services.
