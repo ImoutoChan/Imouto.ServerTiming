@@ -1,14 +1,16 @@
-﻿namespace Lib.AspNetCore.ServerTiming
+﻿namespace Imouto.ServerTiming
 {
     /// <summary>
-    /// The metrics delivery mode.
+    ///     The metrics delivery mode.
     /// </summary>
-    public enum ServerTimigDeliveryMode
+    public enum ServerTimingDeliveryMode
     {
         /// The metrics delivery mode is no yet known.
         Unknown,
+
         /// The metrics will be delivered through request header.
         ResponseHeader,
+
         /// The metrics will be delivered through trailer.
         Trailer
     }

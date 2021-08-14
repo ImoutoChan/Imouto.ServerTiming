@@ -1,17 +1,17 @@
-﻿namespace Lib.AspNetCore.ServerTiming.Http.Headers
+﻿namespace Imouto.ServerTiming.AspNetCore.Headers
 {
     /// <summary>
-    /// The names of HTTP headers used by timing APIs.
+    ///     The names of HTTP headers used by timing APIs.
     /// </summary>
     public static class HeaderNames
     {
         /// <summary>
-        /// The Server-Timing header.
+        ///     The Server-Timing header.
         /// </summary>
         public const string ServerTiming = "Server-Timing";
 
         /// <summary>
-        /// The Timing-Allow-Origin header.
+        ///     The Timing-Allow-Origin header.
         /// </summary>
         public const string TimingAllowOrigin = "Timing-Allow-Origin";
 
