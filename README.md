@@ -11,7 +11,7 @@ PM>  Install-Package Imouto.ServerTiming
 ```
 or
 ```
-<PackageReference Include="Imouto.ServerTiming" Version="1.1.0" />
+<PackageReference Include="Imouto.ServerTiming" Version="1.1.1" />
 ```
 
 ## Usage

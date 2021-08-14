@@ -8,10 +8,10 @@
     <Nullable>enable</Nullable>
     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
     <LangVersion>latest</LangVersion>
-    
+
     <Description>Server Timing support for ASP.NET Core.</Description>
     <Copyright>© ImoutoChan</Copyright>
-    <VersionPrefix>1.1.0</VersionPrefix>
+    <VersionPrefix>1.1.1</VersionPrefix>
     <Authors>ImoutoChan</Authors>
     <PackageTags>aspnetcore servertiming performance metrics metrics-gathering</PackageTags>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>

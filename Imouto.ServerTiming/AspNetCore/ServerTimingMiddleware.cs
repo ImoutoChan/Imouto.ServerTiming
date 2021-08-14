@@ -72,6 +72,7 @@ namespace Imouto.ServerTiming.AspNetCore
 
             context.Response.OnStarting(() =>
             {
+                measurement?.Dispose();
 
                 if (serverTiming.Metrics.Count > 0)
                     context.Response.SetServerTimingHeader(new ServerTimingHeaderValue(serverTiming.Metrics));
